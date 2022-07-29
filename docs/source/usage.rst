@@ -13,5 +13,8 @@ When submitting a job to the 16S pipeline, you will be presented with the follow
   :alt: Launch screen options from Stratus 16S pipeline
 
 
+.. _options:
 
+Options
+------------
 
