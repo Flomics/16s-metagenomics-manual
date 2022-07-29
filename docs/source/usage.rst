@@ -1,16 +1,17 @@
 Usage
 =====
 
-.. _installation:
+.. _input:
 
-Installation
+Input
 ------------
 
-To use Lumache, first install it using pip:
+When submitting a job to the 16S pipeline, you will be presented with the following screen:
 
-.. code-block:: console
+.. image:: images/launch_screen.png
+  :width: 400
+  :alt: Launch screen options from Stratus 16S pipeline
 
-   (.venv) $ pip install lumache
 
 Creating recipes
 ----------------
