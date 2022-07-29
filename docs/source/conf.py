@@ -7,7 +7,7 @@ copyright = '2022, Cris'
 author = 'Cris'
 
 release = '0.1'
-version = '0.1.1'
+version = '0.1.0'
 
 # -- General configuration
 
