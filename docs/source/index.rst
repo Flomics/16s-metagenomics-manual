@@ -19,3 +19,4 @@ Contents
    glossary
    pipeline_overview
    output
+   references
