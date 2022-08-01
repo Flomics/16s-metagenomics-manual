@@ -16,4 +16,6 @@ Contents
 .. toctree::
 
    usage
+   glossary
+   pipeline_overview
    output
