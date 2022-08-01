@@ -76,7 +76,7 @@ For single-end samples the accepted terminations are the same but without the ma
 Grouping
 ------------
 
-When clicking `Next` in the option screen, the file uploading screen will show up. Once you have dragged and dropped or selected the FASTQ files to analyzed, you will be asked to input the grouping condition for the samples. This information is needed in order to perform alpha and beta-diversity analysis, 
+When clicking `Next` in the option screen, the file uploading screen will show up. Once the FASTQ files have been selected (either by drag-and-drop or selection via file explored), you will be asked to input the grouping condition for the samples. This information is needed in order to perform alpha and beta-diversity analysis, 
 
 Leaving the `Group` column empty will be interpreted as missing data and some diversity analysis will not be performed. If samples do not have a defined grouping condition we recommend setting the `Group` column value to the same value (eg. Control, Default, etc). This way, some diversity analysis will still be performed.
 
