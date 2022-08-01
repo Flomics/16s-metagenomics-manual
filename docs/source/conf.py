@@ -3,8 +3,8 @@
 # -- Project information
 
 project = '16s manual'
-copyright = '2022, Cris'
-author = 'Cris'
+copyright = '2022, Flomics Biotech'
+author = 'Flomics Biotech'
 
 release = '0.1'
 version = '0.1.0'
