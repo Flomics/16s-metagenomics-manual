@@ -1,4 +1,5 @@
 .. image:: flomics_logo.png
+   :width: 561
    :alt: Flomics' logo
 
 Welcome to 16S analysis pipeline's documentation!
