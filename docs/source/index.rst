@@ -1,4 +1,4 @@
-.. image:: flomics_logo.png
+.. image:: images/flomics_logo.png
    :width: 561
    :alt: Flomics' logo
 

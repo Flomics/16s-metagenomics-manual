@@ -12,7 +12,6 @@ Got a question that isn't answered here? You can `write <mailto:support@flomics.
 How do I…
 =========
 
-
 .. _move:
 
 …rename my files according to a new path format configuration?
