@@ -1,5 +1,5 @@
 Usage
-=====
+========
 
 .. _input:
 
@@ -19,7 +19,7 @@ Options
 ------------
 
 Sequencing kit
-++++++++++++++
++++++++++++++++++
 
 Here you can select the sequencing kit used to obtain the data. We currently have the following sequencing kits and oligos available, but if the kit your are looking for is not in the list, do not hesitate to contact us and we will add it as soon as possible.
 
@@ -49,22 +49,22 @@ Here you can select the sequencing kit used to obtain the data. We currently hav
 
 
 Sequencing type
-++++++++++++++
+++++++++++++++++++
 
 Here you can select the sequencing platform used for obtaining the data. We currently have full support for data obtained using **Illumina** platforms. The options for **PacBio** and **IonTorrent** are still under development and may not work perfectly, but are available.
 
 Skip trimming
-++++++++++++++
+++++++++++++++++++
 
 Only select this option if your FASTQ files have already had the amplicon primers trimmed, otherwise leave it unchecked.
 
 Sequencing files
-++++++++++++++
+++++++++++++++++++++
 
 Select whether your data is single-end or paired-end.
 
 Accepted sample names
-------------
+-------------------------
 
 Stratus web server uses the last characters on the file name to determine which mate is which in paired-end data. This is why the accepted file terminations are the following:
 

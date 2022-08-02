@@ -1,8 +1,8 @@
 References
-=====
+============
 
 Credits & Acknowledgements
-++++++++++++++
++++++++++++++++++++++++++++
 
 The pipeline is based on `nf-core's <https://pubmed.ncbi.nlm.nih.gov/32055031/>`_ `AmpliSeq <https://nf-co.re/ampliseq/2.1.0>`_ pipeline version 2.1.0. 
 
@@ -16,7 +16,7 @@ The pipeline is based on `nf-core's <https://pubmed.ncbi.nlm.nih.gov/32055031/>`
     Straub, D., Blackwell, N., Langarica-Fuentes, A., Peltzer, A., Nahnsen, S., & Kleindienst, S. (2020). Interpretations of Environmental Microbial Community Studies Are Biased by the Selected 16S rRNA (Gene) Amplicon Sequencing Pipeline. Frontiers in microbiology, 11. `https://doi.org/10.3389/fmicb.2020.550420` PMID: 33193131; PMCID: PMC7645116.
 
 Tools & Assets
-++++++++++++++
++++++++++++++++++
 
 **Nextflow**
     Di Tommaso, P., Chatzou, M., Floden, E. W., Barja, P. P., Palumbo, E., & Notredame, C. (2017). Nextflow enables reproducible computational workflows. Nature biotechnology, 35(4), 316–319. `https://doi.org/10.1038/nbt.3820`. PubMed PMID: 28398311.

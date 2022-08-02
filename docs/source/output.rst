@@ -1,5 +1,5 @@
 Output
-=====
+========
 
 The directories and output files listed below can be found inside the the zip file. All paths are relative to the top-level **results** directory.
 
@@ -113,7 +113,7 @@ We use KronaTools (ver. 2.8.1) to create a very informative visualization of the
         HTML report with the interactive krona plot for each sample of the run.
 
 Sample report
-++++++++++++++
+++++++++++++++++
 
 Aggregated sample report in HTML format.
 
@@ -123,7 +123,7 @@ Aggregated sample report in HTML format.
         Report with information about all steps per sample. It provides information about the number of sequences, sequences trimmed, assigned taxonomy and ASVs found.
 
 Analysis report
-++++++++++++++
+++++++++++++++++++
 Aggregated report of all the samples, containing alpha and beta-diversity measures and a clustered heatmap.
 
 **Output directory: <RESULTS>/Run_report/**
@@ -142,7 +142,7 @@ The pipeline has special steps which allow the software versions used to be repo
         MultiQC report - a standalone HTML file that can be viewed in a web browser.
 
 Pipeline information
-++++++++++++++
+++++++++++++++++++++++
 The pipeline also provides a table listing software used and their respective versions.
 
 **Output directory: <RESULTS>/pipeline_info/**

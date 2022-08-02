@@ -1,5 +1,5 @@
 Pipeline overview
-=====
+===================
 
 The pipeline is built using `Nextflow <https://www.nextflow.io/>`_ and processes data in the following steps:
 
