@@ -7,10 +7,12 @@ The pipeline is built using `Nextflow <https://www.nextflow.io/>`_ and processes
 * `Cutadapt <https://cutadapt.readthedocs.io/en/stable/>`_ : Primer trimming.
 * `DADA2 <https://benjjneb.github.io/dada2/index.html>`_ : Infer Amplicon Sequence Variants (ASVs) and taxonomic classification.
 * `QIIME2 <https://qiime2.org/>`_ : Secondary analysis on diversity results.
+
     * Taxonomic classification: Taxonomical classification of ASVs.
     * Relative abundance tables: Exported relative abundance tables.
     * Alpha diversity rarefaction curves: Rarefaction curves for quality control.
     * Diversity analysis: High level overview with different diversity indices.
+    
         * Alpha diversity indices: Diversity within samples
         * Beta diversity indices: Diversity between samples (e.g. PCoA plots)
 
