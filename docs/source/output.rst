@@ -12,7 +12,7 @@ For further reading and documentation see the `FastQC help <https://www.bioinfor
 
 The FastQC plots displayed in the MultiQC report shows untrimmed reads. They may contain adapter sequences and potentially regions with low quality. 
 
-**Output directory:  ``<RESULTS>/fastqc/``**
+**Output directory:  <RESULTS>/fastqc/**
 
     ``<SAMPLE>_fastqc.html``
         FastQC report, containing quality metrics for your untrimmed raw fastq files
@@ -21,7 +21,7 @@ Cutadapt
 ++++++++++++++
 The pipeline uses Cutadapt (ver. 3.2) for removal of adapters, primers, poly-A tails and other types of unwanted sequences from high-throughput sequencing reads. If the option checkbox that allows for the possibility to skip the trimming step was marked (in case the samples to be processed have already had their primer sequences removed), these outputs will not be given.
 
-**Output directory: ``<RESULTS>/cutadapt/``**
+**Output directory: <RESULTS>/cutadapt/**
 
     ``<SAMPLE>.trimmed.cutadapt.log``
         Log file of the cutadapt process, with statistics regarding the primers trimmed.
@@ -35,7 +35,7 @@ DADA2 (ver. 1.20.0) is a fast and accurate algorithm for the inference of ASVs f
 
 The database that DADA2 will use to match the inferred ASVs against it and taxonomically classify them will be the `Silva 138 database <https://www.arb-silva.de/documentation/release-138/>`_, due to its extended use in the field of metagenomics. The release 138 of the Silva database allows for the identification of a total 2,225,272 organisms, 1,983,534 of which are from the Bacteria kingdom. In Silva’s `browser <https://www.arb-silva.de/browser/>`_ users can consult the contents of the database.
 
-**Output directory: ``<RESULTS>/dada2/``**
+**Output directory: <RESULTS>/dada2/**
 
     ``QC/``
         Internal quality control of the assignment, with several statistics and reports.
@@ -58,7 +58,7 @@ QIIME2
 ++++++++++++++
 QIIME2 (ver. 2021.2.0) is a next-generation microbiome bioinformatics platform. In this pipeline, several of its algorithms are used to further analyze ASV data obtained from the previous steps.
 
-**Output directory: ``<RESULTS>/qiime2/``**
+**Output directory: <RESULTS>/qiime2/**
 
     ``abundance_tables/``
         ``abs-abund-table-X.tsv``
@@ -107,7 +107,7 @@ Krona plots
 ++++++++++++++
 We use KronaTools (ver. 2.8.1) to create a very informative visualization of the absolute abundances of species for each sample, in HTML format to facilitate exploration.
 
-**Output directory: ``<RESULTS>/Krona_plots/``**
+**Output directory: <RESULTS>/Krona_plots/**
 
     ``<SAMPLE>.plot.html``
         HTML report with the interactive krona plot for each sample of the run.
@@ -117,7 +117,7 @@ Sample report
 
 Aggregated sample report in HTML format.
 
-**Output directory: ``<RESULTS>/Samples_report/``**
+**Output directory: <RESULTS>/Samples_report/**
 
     ``<SAMPLE>.html``
         Report with information about all steps per sample. It provides information about the number of sequences, sequences trimmed, assigned taxonomy and ASVs found.
@@ -126,7 +126,7 @@ Analysis report
 ++++++++++++++
 Aggregated report of all the samples, containing alpha and beta-diversity measures and a clustered heatmap.
 
-**Output directory: ``<RESULTS>/Run_report/``**
+**Output directory: <RESULTS>/Run_report/**
 
     ``run.html``
 
@@ -136,7 +136,7 @@ MultiQC (ver. 1.10.1) is a visualization tool that generates a single HTML repor
 
 The pipeline has special steps which allow the software versions used to be reported in the MultiQC output for future traceability.
 
-**Output directory: ``<RESULTS>/multiqc/``**
+**Output directory: <RESULTS>/multiqc/**
 
     ``general.report.html``
         MultiQC report - a standalone HTML file that can be viewed in a web browser.
@@ -145,6 +145,6 @@ Pipeline information
 ++++++++++++++
 The pipeline also provides a table listing software used and their respective versions.
 
-**Output directory: ``<RESULTS>/pipeline_info/``**
+**Output directory: <RESULTS>/pipeline_info/**
 
     ``software_versions.tsv``
