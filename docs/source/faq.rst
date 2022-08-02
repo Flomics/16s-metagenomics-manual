@@ -14,38 +14,27 @@ How do I…
 
 .. _move:
 
-…rename my files according to a new path format configuration?
+…example question?
 --------------------------------------------------------------
 
-Just run the :ref:`move-cmd` command. Use a :doc:`query </reference/query>`
-to rename a subset of your music or leave the query off to rename
-everything.
+example answer.
 
-Why does beets…
+
+Why …
 ===============
 
-.. _nomatch:
+.. _heatscale:
 
-…complain that it can't find a match?
--------------------------------------
+…does the scale of the heatmap go from -2 to 2?
+-------------------------------------------
 
-There are a number of possibilities:
-
--  First, make sure the album is in `the MusicBrainz
-   database <https://musicbrainz.org/>`__. You
-   can search on their site to make sure it's cataloged there. (If not,
-   anyone can edit MusicBrainz---so consider adding the data yourself.)
--  If the album in question is a multi-disc release, see the relevant
-   FAQ answer above.
--  The music files' metadata might be insufficient. Try using the "enter
-   search" or "enter ID" options to help the matching process find the
-   right MusicBrainz entry.
--  If you have a lot of files that are missing metadata, consider using
-   :doc:`acoustic fingerprinting </plugins/chroma>` or
-   :doc:`filename-based guesses </plugins/fromfilename>`
-   for that music.
-
-If none of these situations apply and you're still having trouble
-tagging something, please :ref:`file a bug report <bugs>`.
+In order to effectively show the difference in abundances between the top 30 most abundant features among the samples, we carry out a mathematical transformation of the feature's abundance, to end up with the decimal logarithm of the abundance in percent. First we transform the abundance to a percent scale. Since the decimal logarithm of zero is undefined, whe add a pseudocount of 0.01 to those features that have an abundance of 0%.
+Thus, the normalized abundance for a sample that has an abundance of 0% will be -2, and will be 2 for a sample that has an abundance of 100%.
 
 
+.. _heattrail:
+
+…do the names of the features in the heatmap have several semicolons on them (";;;")?
+--------------------------------------------------------------------------------------
+
+This is because the pipeline follows the ``kpcofgs`` (Kingdom;Phylum;Class;Order;Family;Genus;Species) convention for naming the ASVs found in the sample. Although the pipeline will try to classify each ASVs to the deepest level, this won't always be possible, leaving an ASV classified to, for example, ``family`` level at most. Having two semicolons at the end of the feature name (for example: ``Bacteria;Bacteria;Firmicutes;Bacilli;Lactobacillales;Streptococcaceae;Streptoccocus``) means that the pipeline has classified with confidence that this ASV belongs to the Family ``Streptococcus``, but can't assign with confidence its Genus and Species.
