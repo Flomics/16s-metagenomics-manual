@@ -19,4 +19,5 @@ Contents
    glossary
    pipeline_overview
    output
+   faq
    references
