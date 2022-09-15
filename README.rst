@@ -1,9 +1,8 @@
-Template for the Read the Docs tutorial
+Read The Docs 16S amplicon pipeline manual
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This GitHub repo hosts the code to build the RTD manual of the 16S pipeline.
 
-Read the tutorial here:
+Read the manual here:
 
-https://docs.readthedocs.io/en/stable/tutorial/
+https://16s-metagenomics-manual.readthedocs.io/en/latest/
