@@ -1,6 +1,11 @@
 Pipeline overview
 ===================
 
+.. image:: images/Flowchart_16S_correct.svg
+   :width: 1327
+   :alt: Flowchart of the pipeline's processing steps
+
+
 The pipeline is built using `Nextflow <https://www.nextflow.io/>`_ and processes data in the following steps:
 
 * `FastQC <https://www.bioinformatics.babraham.ac.uk/projects/fastqc/>`_ : Read quality control.

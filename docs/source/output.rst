@@ -96,10 +96,14 @@ QIIME2 (ver. 2021.2.0) is a next-generation microbiome bioinformatics platform. 
             Phylogenetic tree in QIIME2 format.
     ``diversity/``
         ``alpha_diversity/:`` Alpha diversity measures the species diversity within samples. It is calculated using various methods and pairwise comparisons of groups of samples are performed.
-            ``evenness_vector/index.html:`` Pielou’s Evenness.
-            ``faith_pd_vector/index.html:`` Faith’s Phylogenetic Diversity.
-            ``observed_otus_vector/index.html: ``Observed OTUs.
-            ``shannon_vector/index.html:`` Shannon’s diversity index.
+            ``evenness_vector/index.html:``
+                Pielou’s Evenness.
+            ``faith_pd_vector/index.html:``
+                Faith’s Phylogenetic Diversity.
+            ``observed_otus_vector/index.html:``
+                Observed OTUs.
+            ``shannon_vector/index.html:``
+                Shannon’s diversity index.
         ``beta_diversity/:`` Beta diversity measures the species community differences between samples. Distances are calculated using various methods and pairwise comparisons of groups of samples are performed.
             ``<METHOD>_pcoa_results-PCoA/index.html:`` Interactive PCoA plot. Can be viewed in a web browser to assess and represent dissimilarity between samples. Method will be any of the following distance metrics methods: Binary Jaccard distance, Bray-Curtis distance, unweighted UniFrac distance, weighted UniFrac distance.
 
@@ -112,6 +116,12 @@ We use KronaTools (ver. 2.8.1) to create a very informative visualization of the
     ``<SAMPLE>.plot.html``
         HTML report with the interactive krona plot for each sample of the run.
 
+**Sample krona plot:**
+
+.. image:: images/krona_plot_sample.png
+    :alt: Krona plot sample.
+
+
 Sample report
 ++++++++++++++++
 
@@ -122,13 +132,23 @@ Aggregated sample report in HTML format.
     ``<SAMPLE>.html``
         Report with information about all steps per sample. It provides information about the number of sequences, sequences trimmed, assigned taxonomy and ASVs found.
 
+**Sample taxonomy assignment:**
+
+.. image:: images/taxonomy_sample.png
+    :alt: Taxonomy plot sample.
+
+
 Analysis report
 ++++++++++++++++++
 Aggregated report of all the samples, containing alpha and beta-diversity measures and a clustered heatmap.
 
 **Output directory: <RESULTS>/Run_report/**
-
     ``run.html``
+
+**Sample clustered heatmap:**
+
+.. image:: images/heatmap_sample.png
+    :alt: Heatmap plot sample.
 
 MultiQC
 ++++++++++++++

@@ -31,7 +31,8 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
-html_logo = 'flomics_icon.png'
+html_css_files = ["custom.css"]
+html_logo = 'flomics_icon_with_logo_Image.png'
 html_theme_options = {
     'logo_only': True,
     'display_version': False,

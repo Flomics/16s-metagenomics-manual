@@ -9,16 +9,6 @@ Got a question that isn't answered here? You can `write <mailto:support@flomics.
     :depth: 2
 
 
-How do I…
-=========
-
-.. _move:
-
-…example question?
---------------------------------------------------------------
-
-example answer.
-
 
 Why …
 ===============
