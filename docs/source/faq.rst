@@ -43,7 +43,8 @@ The Shannon Equitability Index, also computed by Petri, is a way to measure the 
 -------------------------------------------
 Beta diversity measures the species community differences between samples. Diversity calculations are based on sub-sampled data rarefied to the minimum read count of all samples. Petri calculates beta diversity distances using various methods and performs pairwise comparisons of groups of samples. Additionally, principle coordinates analysis (PCoA) plots are produced that can be visualized interactively in the pipeline reports. This calculations are based on a phylogenetic tree of all ASV sequences. Furthermore, statistical tests are performed to determine whether groups of samples are significantly different from one another.
 The following methods are used to calculate community dissimilarities:
-* Jaccard distance (qualitative)
-* Bray-Curtis distance (quantitative)
-* Unweighted UniFrac distance (qualitative, phylogenetic)
-* Weighted UniFrac distance (quantitative, phylogenetic)
+
+    * Jaccard distance (qualitative)
+    * Bray-Curtis distance (quantitative)
+    * Unweighted UniFrac distance (qualitative, phylogenetic)
+    * Weighted UniFrac distance (quantitative, phylogenetic)
