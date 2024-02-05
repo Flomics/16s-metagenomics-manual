@@ -23,28 +23,28 @@ Sequencing kit
 
 Here you can select the sequencing kit used to obtain the data. We currently have the following sequencing kits and oligos available, but if the kit your are looking for is not in the list, do not hesitate to contact us and we will add it as soon as possible.
 
-* **`16S V1-V9 Primer Constructs (27F-1492R): <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2607152/>`_**
+* **16S V1-V9 Primer Constructs (27F-1492R) <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2607152/>`_**
    * **Forward sequence**: AGAGTTTGATCMTGGCTCAG
    * **Reverse sequence**: TTCAGCATTGTTCCATTGG
-* **`16S V1-V9 Standard Primer Constructs (27F-1495R): <https://onlinelibrary.wiley.com/doi/10.1111/j.1462-5822.2008.01202.x>`_**
+* **16S V1-V9 Standard Primer Constructs (27F-1495R) <https://onlinelibrary.wiley.com/doi/10.1111/j.1462-5822.2008.01202.x>`_**
    * **Forward sequence**: GAGAGTTTGATCCTGGCTCAG
    * **Reverse sequence**: AGCATTGTTCCATCGGCATC
-* **`16S V3-V4 Standard Primer Constructs (341F-785R): <https://www.nature.com/articles/ismej201141>`_**
+* **16S V3-V4 Standard Primer Constructs (341F-785R) <https://www.nature.com/articles/ismej201141>`_**
    * **Forward sequence**: CCTACGGGNGGCWGCAG
    * **Reverse sequence**: GACTACHVGGGTATCTAATCC
-* **`16S V4 Standard Primer Constructs (515F-806R): <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5069754/>`_**
+* **16S V4 Standard Primer Constructs (515F-806R) <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5069754/>`_**
    * **Forward sequence**: GTGYCAGCMGCCGCGGTAA
    * **Reverse sequence**: GGACTACNVGGGTWTCTAAT
-* **`ITS NL4 fungal primers: <https://pubmed.ncbi.nlm.nih.gov/9114410/>`_**
+* **ITS NL4 fungal primers <https://pubmed.ncbi.nlm.nih.gov/9114410/>`_**
    * **Forward sequence**: TCCGTAGGTGAACCTGCGG
    * **Reverse sequence**: GGTCCGTGTTTCAAGACGG
-* **`PacBio 16S V1-V9 Primer Constructs (27F-1492R): <https://www.pacb.com/wp-content/uploads/Procedure-checklist-Amplification-of-bacterial-full-length-16S-rRNA-gene-with-barcoded-primers.pdf>`_**
+* **PacBio 16S V1-V9 Primer Constructs (27F-1492R) <https://www.pacb.com/wp-content/uploads/Procedure-checklist-Amplification-of-bacterial-full-length-16S-rRNA-gene-with-barcoded-primers.pdf>`_**
    * **Forward sequence**: AGRGTTYGATYMTGGCTCAG
    * **Reverse sequence**: TTCAGCATTGTTCCATRGY
-* **`Perkinelmer Nextflex v4 16S amplicon kit 2.0: <https://perkinelmer-appliedgenomics.com/home/products/library-preparation-kits/16s-rrna-sequencing/nextflex-16s-v4-amplicon-seq-kit-2-0/>`_**
+* **Perkinelmer Nextflex v4 16S amplicon kit 2.0 <https://perkinelmer-appliedgenomics.com/home/products/library-preparation-kits/16s-rrna-sequencing/nextflex-16s-v4-amplicon-seq-kit-2-0/>`_**
    * **Forward sequence**: GACGCTCTTCCGATCTTATGGTAATTGTGTGCCAGCMGCCGCGGTAA
    * **Reverse sequence**: TGTGCTCTTCCGATCTAGTCAGTCAGCCGGACTACHVGGGTWTCTAAT
-* **`xGen 16S NGS Amplicon sequencing kit: <https://www.eu.idtdna.com/pages/products/next-generation-sequencing/methods/targeted-dna-sequencing/amplicon-sequencing-solutions>`_**
+* **xGen 16S NGS Amplicon sequencing kit <https://www.eu.idtdna.com/pages/products/next-generation-sequencing/methods/targeted-dna-sequencing/amplicon-sequencing-solutions>`_**
    * The xGen 16S rRNA v2 Amplicon Panel targets V1–V9 variable regions of the 16S rRNA gene.
 
 
