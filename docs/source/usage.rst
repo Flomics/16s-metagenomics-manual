@@ -8,7 +8,7 @@ Input
 
 When submitting a job to the 16S pipeline, you will be presented with the following screen:
 
-.. image:: images/launch_screen.png
+.. image:: images/launch_screen_1.png
    :width: 682
    :alt: Launch screen options from Stratus 16S pipeline
 
@@ -58,10 +58,23 @@ Skip trimming
 
 Only select this option if your FASTQ files have already had the amplicon primers trimmed, otherwise leave it unchecked.
 
+Taxonomy database
+++++++++++++++++++
+
+The taxonomy database that will be used for the taxonomy assignment can be selected by the user using the provided dropdown menu. The options include:
+
+* `Silva 138.1 prokaryotic SSU <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3531112/>`_
+* `GTDB - Genome Taxonomy Database - Release 06-RS202 <https://www.nature.com/articles/nbt.4229>`_
+* `SBDI-GTDB - Sativa curated 16S GTDB database - Release R06-RS202-1 <https://figshare.scilifelab.se/articles/dataset/SBDI_Sativa_curated_16S_GTDB_database/14869077>`_
+* `Greengenes 16S - Release 13.8 <https://www.nature.com/articles/ismej2011139>`_
+* `RDP - Ribosomal Database Project - Release 11.5 <https://academic.oup.com/nar/article/42/D1/D633/1063201>`_
+
+If you would like for another database to be made available for this pipeline, do not hesitate to contact us, and it will be added as soon as possible.
+
 Sequencing files
 ++++++++++++++++++++
 
-Select whether your data is single-end or paired-end.
+Select whether the data is single-end or paired-end.
 
 Accepted sample names
 -------------------------
