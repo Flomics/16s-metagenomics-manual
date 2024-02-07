@@ -63,11 +63,11 @@ Taxonomy database
 
 The taxonomy database that will be used for the taxonomy assignment can be selected by the user using the provided dropdown menu. The options include:
 
-* `Silva 138.1 prokaryotic SSU <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3531112/>`_
-* `GTDB - Genome Taxonomy Database - Release 06-RS202 <https://www.nature.com/articles/nbt.4229>`_
-* `SBDI-GTDB - Sativa curated 16S GTDB database - Release R06-RS202-1 <https://figshare.scilifelab.se/articles/dataset/SBDI_Sativa_curated_16S_GTDB_database/14869077>`_
-* `Greengenes 16S - Release 13.8 <https://www.nature.com/articles/ismej2011139>`_
-* `RDP - Ribosomal Database Project - Release 11.5 <https://academic.oup.com/nar/article/42/D1/D633/1063201>`_
+* `Silva 138.1 prokaryotic SSU <https://www.arb-silva.de/>`_ `[Quast et al.] <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3531112/>`_
+* `GTDB - Genome Taxonomy Database - Release 06-RS202 <https://gtdb.ecogenomic.org/>`_ `[Parks et al.] <https://www.nature.com/articles/nbt.4229>`_
+* `SBDI-GTDB - Sativa curated 16S GTDB database - Release R06-RS202-1 [Swedish Biodiversity Infrastructure] <https://figshare.scilifelab.se/articles/dataset/SBDI_Sativa_curated_16S_GTDB_database/14869077>`_
+* `Greengenes 16S - Release 13.8 <https://greengenes.secondgenome.com/>`_ `[McDonald et al.] <https://www.nature.com/articles/ismej2011139>`_
+* `RDP - Ribosomal Database Project - Release 11.5 <https://www.glbrc.org/data-and-tools/glbrc-data-sets/ribosomal-database-project>`_ `[Cole et al.] <https://academic.oup.com/nar/article/42/D1/D633/1063201>`_
 
 If you would like for another database to be made available for this pipeline, do not hesitate to contact us, and it will be added as soon as possible.
 
